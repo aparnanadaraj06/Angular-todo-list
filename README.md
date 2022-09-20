@@ -1,5 +1,13 @@
 # TodoList
 
+To run the app with docker run the following commands
+
+docker build -t todo-list .
+
+docker run -d -p 4200:80 todo-list
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
 ## Development server
